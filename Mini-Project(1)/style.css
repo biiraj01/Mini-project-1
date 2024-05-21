@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Passero+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.background
+{
+    width: 100%;
+    height: 100%;
+    background: url('dirt2.jpg');
+    background-size: cover;
+
+    /* margin-left: 20px ;
+    margin-right: 20px; */
+
+}
+.background1
+{
+    background-color: black;
+    color:white;
+    width: 100%;
+
+}
+.background2
+{
+    display: flex;
+    justify-content: space-between;
+}
+li
+{
+    display: inline-block;
+    font-size: 24;
+    padding: 20px;
+    font-family: "McLaren", sans-serif;
+    transition: 1s;
+}
+.logo
+{
+    background: url('logo.jpg');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+h1{
+    display: flex;
+    justify-content: left;
+     font-family: "Passero One", sans-serif;
+     display: block;
+     font-size: 55px;
+     color: rgb(255, 255, 255);
+     position: absolute;
+     top: 90px;
+}
+h2
+{
+    display: flex;
+    justify-content: left;
+    font-family: "Passero One", sans-serif;
+    display: block;
+    font-size: 40px;
+    position: absolute;
+    color: rgb(252, 253, 253);
+    top: 100px;
+    left: 450px;
+}
+h3
+{
+    font-family: "McLaren", sans-serif;
+    display: block;
+    color: white;
+    position: absolute;
+    top: 145px;
+    left: 90px;
+    font-size: 17px;
+}
+li a{
+    text-decoration:  none;
+    color: aliceblue;
+}
+li a:hover{
+    color: red;
+    transform: scale(1.2);
+}
+.blob
+{
+    background: url('Vector.png');
+    width: 350px;
+    height: 310px;
+    background-size: cover;
+    position: absolute;
+    top: 325px;
+    left:1000px;
+}
+h1 a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+h2 a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+h3 a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+h4
+{
+    display: flex;
+    font-family: "McLaren", sans-serif;
+    font-size: 55px;
+    position: absolute;
+    left:75px;
+    top: 15px;
+}
+h4 a
+{
+    color: black;
+    text-decoration: none;
+}
+h5
+{
+    display: flex;
+    font-family: "McLaren", sans-serif;
+    font-size: 25px;
+    position: absolute;
+    left:50px;
+    top:120px;
+}
+h5 a
+{
+    color: black;
+    text-decoration: none;
+}
+.btn
+{
+    width: 100px;
+    height: 50px;
+    font-family: "McLaren", sans-serif;
+    font-size: 15px;
+    border: 0px;
+    position: absolute;
+    left:140px;
+    top:220px;
+    transition: 0.5s all;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    overflow: hidden;
+}
+.btn:hover
+{
+    background-color:rgb(143, 0, 0);
+    color: black;
+    font-size: 16px;
+
+}
